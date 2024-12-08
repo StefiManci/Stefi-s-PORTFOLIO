@@ -1,0 +1,16 @@
+.contactoptions{
+    height: 20vh;
+    width: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.information{
+    height: 50vh;
+    width: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}

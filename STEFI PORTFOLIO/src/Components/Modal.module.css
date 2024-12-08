@@ -1,0 +1,13 @@
+.container{
+    height: 40vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}

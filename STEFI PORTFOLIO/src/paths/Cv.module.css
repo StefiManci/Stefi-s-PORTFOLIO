@@ -1,0 +1,37 @@
+.container{
+    width: 170vh;
+    height: 150vh;
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.profile{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.introduction{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.contact{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.education{
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.language{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.digital{
+    grid-column: span 4;
+    grid-row: span 1;
+}

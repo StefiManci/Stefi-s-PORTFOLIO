@@ -1,0 +1,20 @@
+.icon{
+    height: 30vh;
+    width: 170vh;
+    margin-bottom: 30px;
+}
+
+.languages{
+    height: 20vh;
+    width: 170vh;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information{
+    height: 50vh;
+    width: 170vh;
+
+}
