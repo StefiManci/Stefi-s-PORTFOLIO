@@ -1,9 +1,9 @@
+import { motion } from "motion/react"
 import styles from "./Skills.module.css"
-
 export default function Skills({change}){
     return(
         <>
-        <div className={styles.digitalContainer}>
+        <motion.div initial={{opacity:0,scale:0,y:-50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:1,duration:1,type:"spring",ease:"easeIn"}} className={styles.digitalContainer}>
             <div className={styles.container}>
                 <div>
                     <h1>Please Choose a Language:</h1>
@@ -81,7 +81,7 @@ export default function Skills({change}){
                 </div>
             </div>
             
-        </div>
+        </motion.div>
         
         </>
 

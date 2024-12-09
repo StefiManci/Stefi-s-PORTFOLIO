@@ -1,8 +1,9 @@
-import Skills from "../Components/CV/Skills"
+import Skills from "../Components/Learning/Skills"
 import Image from "../Components/Learning/Image";
 import Information from "../Components/Learning/information";
 import styles from "./Learning.module.css"
 import { useState } from "react";
+import {motion, AnimatePresence } from "motion/react";
 export default function Learning(){
  
 const [isChosen,setIsChoosen]= useState("");
@@ -15,15 +16,24 @@ function handleChange(type){
 
     return(
         <>
-        {isShowing ? <div className={styles.icon}>
+        <AnimatePresence>
+          {isShowing ? <motion.div exit={{opacity:0,scale:0}} transition={{duration:1}} className={styles.icon}>
          <Skills change={handleChange}></Skills>
-         </div>: ""}
-         <div className={styles.languages}>
+         </motion.div>: ""}
+        </AnimatePresence>
+        <AnimatePresence>
+{!isShowing != "" ? <motion.div exit={{y:10,opacity:0}} transition={{duration:1}}  className={styles.languages}>
           <Image value={isChosen} change={handleChange}></Image>
-         </div>
-         <div className={styles.information} >
+         </motion.div>:""}
+        </AnimatePresence>
+        <AnimatePresence>
+{!isShowing != "" ? <motion.div exit={{y:10,opacity:0}} transition={{duration:1}}  className={styles.information} >
           <Information value={isChosen}></Information>
-         </div>
+         </motion.div>:""}
+        </AnimatePresence>
+        
+         
+         
         </>
     )
 }

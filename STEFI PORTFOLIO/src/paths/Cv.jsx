@@ -1,3 +1,5 @@
+
+import { AnimatePresence } from "motion/react"
 import Contact from "../Components/CV/Contact"
 import DigitalSkills from "../Components/CV/DigitalSkills"
 import Education from "../Components/CV/Education"
@@ -21,7 +23,10 @@ export default function Cv(){
     }
     return(
         <>
+        <AnimatePresence>
          {value ? <Modal close={handleClose}></Modal> : ""}
+        </AnimatePresence>
+  
          <div className={styles.container}>
             <div className={styles.profile}>
                 <Profile></Profile>
