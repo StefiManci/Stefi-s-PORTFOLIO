@@ -13,7 +13,7 @@ export default function Projects(){
                 </div>
             </div>
             <div className={styles.project}>
-                <motion.a whileHover={{scale:1.2, y:-10}} href="#"><motion.img whileHover={{scale:1.2, y:-10}} src={portfolioLogo} width="100%" height="100%" alt="" /></motion.a>
+                <motion.a whileHover={{scale:1.2, y:-10}} href="https://github.com/StefiManci/Stefi-s-PORTFOLIO"><motion.img whileHover={{scale:1.2, y:-10}} src={portfolioLogo} width="100%" height="100%" alt="" /></motion.a>
             </div>
             <div className={styles.project}>
                 <motion.a whileHover={{scale:1.2, y:-10}} href="https://github.com/StefiManci/MusicStore" target="_blank"><motion.img whileHover={{scale:1.2, y:-10}} src={musicStoreLogo} width="100%" height="100%" alt="" /></motion.a>
