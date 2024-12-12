@@ -1,4 +1,4 @@
-import logo from "../assets/ProfilePhoto.jpeg"
+import logo from "../assets/STEFI.png"
 import AboutText from "../Components/AboutText"
 import {motion} from "motion/react"
 export default function About(){

@@ -14,15 +14,15 @@ export default function ContactInformation({page}){
     return(
         <>
         <div>
-            <motion.h1 key={page} initial={{scale:0}} animate={{scale:1}} transition={{duration:1,type:"spring",ease:"easeIn"}}>My WhatsApp:</motion.h1>
+            <motion.h1 key={page} initial={{scale:0}} animate={{scale:1}} transition={{duration:1,type:"spring",ease:"easeIn"}}>My WhatsApp:0685167444</motion.h1>
         </div>
         </>
     )
-   }else if(page==="Facebook"){
+   }else if(page==="Github"){
     return(
         <>
          <div>
-            <motion.h1 key={page} initial={{scale:0}} animate={{scale:1}} transition={{duration:1,type:"spring",ease:"easeIn"}}>My Facebook:</motion.h1>
+            <motion.h1 key={page} initial={{scale:0}} animate={{scale:1}} transition={{duration:1,type:"spring",ease:"easeIn"}}>My Github:<a style={{color:"red",textDecoration:"none"}} href="https://github.com/StefiManci" target="_blank"> Stefi Github</a></motion.h1>
         </div>
         </>
     )
@@ -30,7 +30,7 @@ export default function ContactInformation({page}){
     return(
         <>
          <div>
-            <motion.h1 key={page} initial={{scale:0}} animate={{scale:1}} transition={{duration:1,type:"spring",ease:"easeIn"}}>My Instagram:</motion.h1>
+            <motion.h1 key={page} initial={{scale:0}} animate={{scale:1}} transition={{duration:1,type:"spring",ease:"easeIn"}}>My Instagram:<a style={{color:"red",textDecoration:"none"}} href="https://www.instagram.com/_stefi__m/profilecard/?igsh=MXJoa2t5MDgxN291ag==" target="_blank">Stefi Instagram</a></motion.h1>
         </div>
         </>
     )
@@ -38,7 +38,7 @@ export default function ContactInformation({page}){
     return(
         <>
          <div>
-            <motion.h1 key={page} initial={{scale:0}} animate={{scale:1}} transition={{duration:1,type:"spring",ease:"easeIn"}}>My LinkedIn:</motion.h1>
+            <motion.h1 key={page} initial={{scale:0}} animate={{scale:1}} transition={{duration:1,type:"spring",ease:"easeIn"}}>My LinkedIn:<a style={{color:"red",textDecoration:"none"}} href="https://www.linkedin.com/in/stefi-manci-7630712a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Stefi LinkedIn</a></motion.h1>
         </div>
         </>
     )
@@ -46,7 +46,7 @@ export default function ContactInformation({page}){
     return(
         <>
          <div>
-            <motion.h1 key={page} initial={{scale:0}} animate={{scale:1}} transition={{duration:1,type:"spring",ease:"easeIn"}}>My Email:</motion.h1>
+            <motion.h1 key={page} initial={{scale:0}} animate={{scale:1}} transition={{duration:1,type:"spring",ease:"easeIn"}}>My Email: stefi.manci1@gmail.com</motion.h1>
         </div>
         </>
     )
@@ -54,7 +54,7 @@ export default function ContactInformation({page}){
     return(
         <>
          <div>
-            <motion.h1 key={page} initial={{scale:0}} animate={{scale:1}} transition={{duration:1,type:"spring",ease:"easeIn"}}>My Phone Number:</motion.h1>
+            <motion.h1 key={page} initial={{scale:0}} animate={{scale:1}} transition={{duration:1,type:"spring",ease:"easeIn"}}>My Phone Number: 0685167444</motion.h1>
         </div>
         </>
     )

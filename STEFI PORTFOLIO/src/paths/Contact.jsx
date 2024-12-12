@@ -22,7 +22,7 @@ export default function Contact(){
                 <div className={styles.contactoptions}>
                 <ContactButton name="Whatsapp"  page={source}  onClick={()=>handleClick("Whatsapp")}></ContactButton>
                 <ContactButton name="Instagram"  page={source} onClick={()=>handleClick("Instagram")} ></ContactButton>
-                <ContactButton name="Facebook"  page={source} onClick={()=>handleClick("Facebook")}></ContactButton>
+                <ContactButton name="Github"  page={source} onClick={()=>handleClick("Github")}></ContactButton>
                 <ContactButton name="LinkedIn"  page={source} onClick={()=>handleClick("LinkedIn")}></ContactButton>
                 <ContactButton name="Email"  page={source} onClick={()=>handleClick("Email")}></ContactButton>
                 <ContactButton name="Phone"  page={source} onClick={()=>handleClick("Phone")}></ContactButton>

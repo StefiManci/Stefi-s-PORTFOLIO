@@ -1,4 +1,4 @@
-import logo from "./ProfilePhoto.jpeg"
+import logo from "./STEFI.png"
 import styles from "./Profile.module.css"
 import { motion } from "motion/react"
 export default function Profile(){
