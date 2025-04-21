@@ -1,6 +1,7 @@
 import styles from "./Projects.module.css"
 import portfolioLogo from "../assets/PortfolioImg.png"
 import musicStoreLogo from "../assets/MusicStoreImg.png"
+import cineplayLogo from '../assets/CinePlayImg.png'
 import { motion } from "motion/react"
 
 export default function Projects(){
@@ -17,6 +18,9 @@ export default function Projects(){
             </div>
             <div className={styles.project}>
                 <motion.a whileHover={{scale:1.2, y:-10}} href="https://github.com/StefiManci/MusicStore" target="_blank"><motion.img whileHover={{scale:1.2, y:-10}} src={musicStoreLogo} width="100%" height="100%" alt="" /></motion.a>
+            </div>
+            <div className={styles.project}>
+                <motion.a whileHover={{scale:1.2, y:-10}} href="https://github.com/StefiManci/CinePlay" target="_blank"><motion.img whileHover={{scale:1.2, y:-10}} src={cineplayLogo} width="100%" height="100%" alt="" /></motion.a>
             </div>
             
          </div>
